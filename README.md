@@ -5,10 +5,14 @@
 <p align="center">
   <a href="https://github.com/otavix010/dirge-of-cerberus-pc/commits/main"><img alt="Última atualização" src="https://img.shields.io/github/last-commit/otavix010/dirge-of-cerberus-pc?label=%C3%BAltima%20atualiza%C3%A7%C3%A3o"></a>
   <a href="https://github.com/otavix010/otavix-launcher/releases/latest"><img alt="Baixar o Otavix Launcher" src="https://img.shields.io/badge/Otavix%20Launcher-baixar-b00020"></a>
+  <img alt="Windows 10/11" src="https://img.shields.io/badge/Windows-10%2F11-0078d4">
+  <img alt="Linux: não suportado no momento" src="https://img.shields.io/badge/Linux-n%C3%A3o%20suportado-lightgrey">
+  <img alt="Em preparação" src="https://img.shields.io/badge/situa%C3%A7%C3%A3o-em%20prepara%C3%A7%C3%A3o-f5a623">
 </p>
 
 <p align="center">
   <a href="#estado-atual-em-desenvolvimento">Estado atual: em desenvolvimento</a> ·
+  <a href="#plataformas-e-situação">Plataformas e situação</a> ·
   <a href="#o-que-você-vai-precisar">O que você vai precisar</a> ·
   <a href="#licença-e-créditos">Licença e créditos</a> ·
   <a href="#english-summary">English</a>
@@ -22,10 +26,22 @@ Port nativo para PC por **recompilação estática** com o motor PS2 próprio do
 
 **O port ainda vai começar.** Antes, estamos fortalecendo a base comum dos ports de PS2 (tradutor, runtime, IOP, VU1 e GS) com os primeiros jogos: [Spawn: Armageddon](https://github.com/otavix010/spawn-armageddon-pc), [Ghost Rider](https://github.com/otavix010/ghost-rider-pc), [Medal of Honor: European Assault](https://github.com/otavix010/moh-european-assault-pc) e [10.000 Bullets](https://github.com/otavix010/10000-bullets-pc). As novidades vão aparecendo em `NOVIDADES.md` e na página do jogo no Otavix Launcher.
 
+## Plataformas e situação
+
+| | |
+|---|---|
+| Situação | **em preparação**: o port ainda não existe; este repositório guarda o plano e as novidades |
+| Gerador (`gerar.cmd`) | **ainda não existe** |
+| Desempenho | **sem dado**: o jogo ainda não inicia no nosso motor |
+| Windows 10/11 | alvo do port |
+| Linux / SteamOS | **não suportado no momento** (só o port de *God of War: Ascension* tem versão Linux, beta) |
+
+Quando o port começar a rodar, este README ganha os requisitos, o desempenho medido (PC 1, PC 2, Notebook e Portátil) e as perguntas frequentes, como nos [ports que já geram](https://github.com/otavix010/god-of-war-2-pc).
+
 ## O que você vai precisar
 
 - A ISO da versão europeia: Redump **"Dirge of Cerberus - Final Fantasy VII (Europe, Australia) (En,Fr,De,Es,It)"** (SLES-54185).
-- Windows 10/11 de 64 bits, um processador com AVX2 e espaço para a geração (alguns GB).
+- Windows 10/11 de 64 bits, um processador x86-64 (AVX2 ajuda, mas não é obrigatório) e espaço para a geração (alguns GB).
 
 ## Licença e créditos
 
