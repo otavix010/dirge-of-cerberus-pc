@@ -1,6 +1,6 @@
 <h1 align="center">Dirge of Cerberus: Final Fantasy VII — port nativo para PC</h1>
 
-<p align="center"><i>Dirge of Cerberus: Final Fantasy VII (PS2, PAL): port nativo para PC por recompilação estática (PS2Recomp). Em desenvolvimento (o port ainda vai começar).</i></p>
+<p align="center"><i>Dirge of Cerberus: Final Fantasy VII (PS2, NTSC-U SLUS-21419): port nativo para PC por recompilação estática (PS2Recomp). Em desenvolvimento (o port ainda vai começar).</i></p>
 
 <p align="center">
   <a href="https://github.com/otavix010/dirge-of-cerberus-pc/commits/main"><img alt="Última atualização" src="https://img.shields.io/github/last-commit/otavix010/dirge-of-cerberus-pc?label=%C3%BAltima%20atualiza%C3%A7%C3%A3o"></a>
@@ -18,7 +18,7 @@
   <a href="#english-summary">English</a>
 </p>
 
-> **Projeto de fãs, sem fins lucrativos.** *Final Fantasy VII* e *Dirge of Cerberus* são marcas registradas da Square Enix; este projeto não tem relação com a Square Enix. Este repositório **não contém o jogo**: você vai precisar da **sua própria cópia** do DVD (a versão europeia, **SLES-54185**).
+> **Projeto de fãs, sem fins lucrativos.** *Final Fantasy VII* e *Dirge of Cerberus* são marcas registradas da Square Enix; este projeto não tem relação com a Square Enix. Este repositório **não contém o jogo**: você vai precisar da **sua própria cópia** do DVD (a versão americana, **SLUS-21419**).
 
 Port nativo para PC por **recompilação estática** com o motor PS2 próprio do projeto, no mesmo esquema dos outros ports de PlayStation 2 do Otavix: o seu PC gera e compila o jogo a partir da sua ISO.
 
@@ -40,7 +40,7 @@ Quando o port começar a rodar, este README ganha os requisitos, o desempenho me
 
 ## O que você vai precisar
 
-- A ISO da versão europeia: Redump **"Dirge of Cerberus - Final Fantasy VII (Europe, Australia) (En,Fr,De,Es,It)"** (SLES-54185).
+- A ISO da versão americana: Redump **"Dirge of Cerberus - Final Fantasy VII (USA)"** (SLUS-21419).
 - Windows 10/11 de 64 bits, um processador x86-64 (AVX2 ajuda, mas não é obrigatório) e espaço para a geração (alguns GB).
 
 ## Licença e créditos
@@ -51,4 +51,4 @@ Quando o port começar a rodar, este README ganha os requisitos, o desempenho me
 
 ## English summary
 
-A **native PC port** of *Dirge of Cerberus: Final Fantasy VII* (PlayStation 2, 2006) by **static recompilation** with the project's own PS2 engine. **Work in progress: the port has not started yet** — we are first strengthening the shared PS2 base with the first four games. You will need your own copy of the **European** release (SLES-54185, Redump "Dirge of Cerberus - Final Fantasy VII (Europe, Australia) (En,Fr,De,Es,It)") as an .iso. *Final Fantasy VII* and *Dirge of Cerberus* are trademarks of Square Enix; this is a non-commercial fan project, not affiliated with or endorsed by Square Enix.
+A **native PC port** of *Dirge of Cerberus: Final Fantasy VII* (PlayStation 2, 2006) by **static recompilation** with the project's own PS2 engine. **Work in progress: the port has not started yet** — we are first strengthening the shared PS2 base with the first four games. You will need your own copy of the **American** release (SLUS-21419, Redump "Dirge of Cerberus - Final Fantasy VII (USA)") as an .iso. *Final Fantasy VII* and *Dirge of Cerberus* are trademarks of Square Enix; this is a non-commercial fan project, not affiliated with or endorsed by Square Enix.
